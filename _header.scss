@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+    background-color: $color2;
+    
+    nav{
+        text-align: center;
+
+        ul{ 
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            list-style-type: none;
+            font-size: 20px;
+            margin-bottom: 0px;
+
+            li{
+                padding: 15px;
+
+                a{
+                    color: $color1;
+                    text-decoration: none;
+                    text-shadow: 5px 5px 5px gray;
+                }
+            }
+        }    
+    }
+}
